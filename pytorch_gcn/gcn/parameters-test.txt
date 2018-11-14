@@ -1,0 +1,154 @@
+true
+conv1-weights
+0.1408  
+0.0515  
+0.1722 
+-0.0541 
+-0.2402  
+0.1576 
+-0.2478 
+-0.0062 
+-0.2438 
+-0.0072
+0.1404  
+0.0140 
+-0.1899 
+-0.1732 
+-0.1603  
+0.0449
+[torch.FloatTensor of size 1x16]
+
+conv1-bias
+ 0.0936
+ 0.1551
+ 0.2300
+ 0.2038
+-0.1864
+ 0.0063
+-0.1222
+ 0.0374
+-0.2309
+ 0.0503
+-0.0623
+ 0.0158
+ 0.0467
+ 0.0892
+ 0.0319
+-0.1401
+[torch.FloatTensor of size 16]
+
+conv2-weights
+ 0.8559
+ 0.3313
+-0.4834
+ 0.7248
+-0.5410
+-0.8550
+-0.8383
+ 0.1540
+ 0.9016
+ 0.6726
+-0.1852
+-0.7523
+ 0.8588
+-0.1538
+ 0.1919
+-0.0335
+[torch.FloatTensor of size 16x1]
+
+conv2-bias
+-0.9750
+[torch.FloatTensor of size 1]
+
+result
+-4.4426
+-4.8491
+-2.9037
+   ⋮    
+-4.5994
+-4.4571
+-4.7137
+[torch.FloatTensor of size 1000x1]
+
+
+
+prediction
+result
+
+Epoch: 0100 loss_train: 0.3539 loss_val: 0.0196 time: 0.0058s
+Variable containing:
+-4.4640
+-4.8772
+-2.8744
+   ⋮    
+-4.4182
+-4.3845
+-4.5241
+[torch.FloatTensor of size 1000x1]
+
+[Parameter containing:
+
+conv1-weights
+-0.0371  
+0.0377  
+0.1918 
+-0.0524  
+0.1491  
+0.0732 
+-0.0048  
+0.1103 
+-0.0532  
+0.0024
+-0.0599  
+0.0234 
+-0.0565 
+-0.0958  
+0.1239 
+-0.0462
+[torch.FloatTensor of size 1x16]
+
+conv1-bias
+-0.0439
+-0.2987
+ 0.0732
+-0.0705
+-0.1745
+-0.2428
+ 0.1986
+ 0.1598
+-0.0645
+ 0.2679
+-0.0399
+ 0.0075
+-0.0200
+ 0.1566
+-0.1827
+-0.0709
+[torch.FloatTensor of size 16]
+
+conv2-weights
+-0.2318
+ 0.1397
+-0.0741
+-0.2160
+-0.1397
+-0.8535
+-0.3728
+-0.1079
+-0.0214
+-0.2341
+-0.0548
+-0.5830
+ 0.0034
+ 0.8623
+-0.1986
+-0.3411
+[torch.FloatTensor of size 16x1]
+
+conv2-bias
+-0.3957
+[torch.FloatTensor of size 1]
+]
+Optimization Finished!
+Total time elapsed: 0.7576s
+Test set results: loss= 0.0229 accuracy= 0.0000
